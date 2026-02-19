@@ -33,7 +33,8 @@ function App() {
 
     setLoading(false);
   };
-
+console.log("API URL:", process.env.REACT_APP_API_URL);
+console.log("Function Key:", process.env.REACT_APP_FUNCTION_KEY);
   return (
     <div style={{ padding: "40px", fontFamily: "Arial" }}>
       <h1>AI Chat App 🤖</h1>
